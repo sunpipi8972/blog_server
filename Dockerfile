@@ -7,5 +7,4 @@ RUN yum install -y git \
     && tar -xJvf /home/node-v16.13.1-linux-x64.tar.xz -C /usr/local/lib/nodejs \
     && npm install -g hexo \
     && rm -rf /home/node-v16.13.1-linux-x64.tar.xz \
-    && mkdir /home/hexo_src \
-    && hexo init /home/hexo_src
+    && mkdir /home/hexo_src

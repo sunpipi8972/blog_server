@@ -32,3 +32,17 @@
 今天就实现通过dockerfile构建一个可以运行hexo的镜像
 
 呀呀呀，今天没写完，明天在弄，Dockerfile调试真tnnd费劲
+
+## 2022.01.04
+
+今天上班摸鱼时间把博客上线了
+使用方法，将代码拉到/home/目录中
+
+```bash
+docker build hexo:latest .
+docker run -it --name hexo -v /home/blog_server/hexo_replace/:/home/hexo_replace -p 4000:4000 hexo:latest
+```
+
+将hexo_server目录中的部分文件及文件夹都替换成hexo_replace的
+
+这样的好处是，每当修改配置文件或者添加md文件时，不需要重新构建镜像，直接拉取代码替换就可以

@@ -48,3 +48,7 @@ docker run -it --name hexo -v /home/blog_server/hexo_replace/:/home/hexo_replace
 将hexo_server目录中的部分文件及文件夹都替换成hexo_replace的
 
 这样的好处是，每当修改配置文件或者添加md文件时，不需要重新构建镜像，直接拉取代码替换就可以
+
+## 2022.01.05
+
+今天去调整一下博客上面的细节

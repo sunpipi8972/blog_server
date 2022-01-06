@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "Sun pipi's personal blog"
-subtitle: '关于作者：一个97年的程序猿，2020毕业于天津小海地某高校。'
-description: '我也不知道为什么要写这个博客，只是觉得不写博客的程序员不是好架构师吧'
+title: "Sunpipi blog"
+subtitle: '我也不知道为什么要写这个博客，只是觉得不写博客的程序员不是好架构师吧'
+description: '关于作者：一个97年的程序猿，2020毕业于天津小海地某高校'
 keywords:
 author: Sun pipi
 language: zh-CN

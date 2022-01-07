@@ -82,11 +82,11 @@ creative_commons:
 # Value before `||` delimiter is the target link, value after `||` delimiter is the name of Font Awesome icon.
 # External url should start with http:// or https://
 menu:
-  home: /
+  home: /  || home
   tags: /tags/ || tags
-  categories: /categories/ || categories
-  archives: /archives/ || archives
-  about: /about/
+  categories: /categories/ || th
+  archives: /archives/ || archive
+  about: /about/ || user
 #  schedule: /schedule/
 #  sitemap: /sitemap.xml
 #  commonweal: /404/
@@ -94,7 +94,7 @@ menu:
 # Enable / Disable menu icons / item badges.
 menu_settings:
   icons: true
-  badges: false
+  badges: true
 
 
 # ---------------------------------------------------------------
@@ -141,7 +141,7 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  GitHub: https://github.com/sunpipi8972
+  GitHub: https://github.com/sunpipi8972 || github
   #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google

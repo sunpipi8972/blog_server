@@ -9,3 +9,14 @@ tags: C语言 学习笔记
 description: C语言学习记00
 
 ---
+
+## helloworld
+
+```c
+#include <stdio.h>
+
+int main(void) {
+  printf("Hello World\n");
+  return 0;
+}
+```
